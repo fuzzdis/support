@@ -1,5 +1,5 @@
 {
-    "name": "illuminate/support",
+    "name": "fuzzdis/support",
     "description": "The Illuminate Support package.",
     "license": "MIT",
     "homepage": "https://laravel.com",
@@ -21,7 +21,7 @@
         "paragonie/random_compat": "~1.4|~2.0"
     },
     "replace": {
-        "tightenco/collect": "self.version"
+        "illuminate/support": "self.version"
     },
     "autoload": {
         "psr-4": {
@@ -44,5 +44,5 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }

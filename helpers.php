@@ -516,7 +516,7 @@ if (! function_exists('dd')) {
     }
 }
 
-if (! function_exists('e')) {
+if (false && ! function_exists('e')) {
     /**
      * Escape HTML special characters in a string.
      *
